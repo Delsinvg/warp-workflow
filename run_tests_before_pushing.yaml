@@ -1,0 +1,9 @@
+---
+name: Run tests before pushing
+command: "php artisan test && git push"
+tags:
+  - git
+description: "Run tests before pushing"
+author: Delsin Van Grembergen
+shells: []
+
